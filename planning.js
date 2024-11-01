@@ -60,6 +60,6 @@ function ProfitOrloss (flight, airportCSV, aeroplanes, noSoldtickets, ticketPric
    const flight = ['MAN','LGW'] //started to input data
    const airportCSV =  [207,285,219,122,246]
    const aeroplanes= 
-   const noSoldeconomy = [150,120,140,100,160,150,110,165,90,180]
+   const noSoldtickets =
    const ticketPrice =
 
