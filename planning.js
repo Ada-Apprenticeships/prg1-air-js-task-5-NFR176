@@ -59,7 +59,13 @@ function ProfitOrloss (flight, airportCSV, aeroplanes, noSoldtickets, ticketPric
     
    const flight = ['MAN','LGW'] //started to input data
    const airportCSV =  [207,285,219,122,246]
-   const aeroplanes= 
-   const noSoldtickets =
-   const ticketPrice =
+   const aeroplanes = [ //'implement data']
+   const ticketPrice = [200]; // examples
+   const noSoldtickets = 1000; //examples
 
+   const result = profitOrLoss(flight, airportCSV,aeroplanes,noSoldTickets, ticketprice); 
+
+if (result) {
+console.log(`Revenue: $${result.revenue}`)
+
+}
